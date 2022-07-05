@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Best app for pomodoro timing." />
+    <meta name="author" content="Bahadır Tuna Aydın" />
+    <meta
+      name="keywords"
+      content="pomodoro, Pomodoro, Study, Work, Timing, Html, Css, JavaScript"
+    />
+    <title>Pomodoro</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Pomodoro</h1>
+      <ul>
+        <li id="report-li">
+          <img src="./images/report(1).png" alt="report" />
+          <div class="modal-menu">
+            <h1>Reports</h1>
+            <hr />
+            <div class="pomodoro-hours">
+              <img src="./images/clock.png" alt="clock" />
+              <p>21.9</p>
+              <small>pomodoro hours</small>
+            </div>
+          </div>
+        </li>
+
+        <li id="setting-li">
+          <img src="./images/gear.png" alt="gear" />
+          <div class="modal-menu">
+            <h1>Settings</h1>
+            <hr />
+            <div class="timer-settings">
+              <h1>Time(minutes)</h1>
+              <ul>
+                <li>
+                  <label for="pomodoro">Pomodoro</label>
+                  <input
+                    type="number"
+                    id="pomodoro"
+                    name="pomodoro"
+                    min="1"
+                    max="59"
+                  />
+                </li>
+                <li>
+                  <label for="shortBreak">Short Break</label>
+                  <input
+                    type="number"
+                    id="shortBreak"
+                    name="shortBreak"
+                    min="1"
+                    max="59"
+                  />
+                </li>
+                <li>
+                  <label for="longBreak">Long Break</label>
+                  <input
+                    type="number"
+                    id="longBreak"
+                    name="longBreak"
+                    min="1"
+                    max="59"
+                  />
+                </li>
+                <button>OK</button>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <main>
+      <div id="timer">
+        <ul id="pomodoro-controls">
+          <li><button>Pomodoro</button></li>
+          <li><button>Short Break</button></li>
+          <li><button>Long Break</button></li>
+        </ul>
+        <h1>50:00</h1>
+        <ul id="timer-controls">
+          <li><button>START</button></li>
+          <li><button>STOP</button></li>
+          <li><button>RESET</button></li>
+        </ul>
+      </div>
+      <p>#1</p>
+    </main>
+  </body>
+</html>
