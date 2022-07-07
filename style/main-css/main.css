@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+@import "../mobile-css/mobile.css" screen and (max-width: 600px);
+:root {
+  font-family: "Roboto", sans-serif;
+  background: #5680E9;
+  color: white;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */
